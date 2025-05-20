@@ -5,9 +5,10 @@
     <classes>
       <class name="automation_pagetest.SwabLabs_PageTest">
         <methods>
+          <include name="myTest"/>
           <include name="setupdriver"/>
-          <include name="verifyCartFunctionalityWorksCorectly"/>
           <include name="closeDriver"/>
+          <include name="verifyCartFunctionalityWorksCorectly"/>
           <include name="verifyLoginWithCorrectCredentials"/>
           <include name="verifyLoginWithIncorrectCredentials"/>
           <include name="verifyCheckoutFunctionalityWorksCorrectly"/>

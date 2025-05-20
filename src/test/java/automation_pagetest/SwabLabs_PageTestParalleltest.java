@@ -19,7 +19,7 @@ import automation_common.SwabLabs_SupportingCapabilities;
 import automation_pageobjects.SwabLabs_PageObjectFirst;
 
 
-public class SwabLabs_PageTest extends SwabLabs_BaseConfig{
+public class SwabLabs_PageTestParalleltest extends SwabLabs_BaseConfig{
 
 	/**
 	 * variables

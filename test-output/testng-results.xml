@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-20T19:27:22 IST" name="Suite" finished-at="2025-05-20T19:27:29 IST" duration-ms="7281">
+  <suite started-at="2025-05-21T02:21:30 IST" name="Suite" finished-at="2025-05-21T02:21:37 IST" duration-ms="7381">
     <groups>
     </groups>
-    <test started-at="2025-05-20T19:27:22 IST" name="Test" finished-at="2025-05-20T19:27:29 IST" duration-ms="7281">
-      <class name="automation_pagetest.SwabLabs_PageTest">
-        <test-method is-config="true" signature="setupdriver(java.lang.String)[pri:0, instance:automation_pagetest.SwabLabs_PageTest@3a52dba3]" started-at="2025-05-20T19:27:22 IST" name="setupdriver" finished-at="2025-05-20T19:27:25 IST" duration-ms="2678" status="PASS">
+    <test started-at="2025-05-21T02:21:30 IST" name="Test Two " finished-at="2025-05-21T02:21:37 IST" duration-ms="7362">
+      <class name="automation_pagetest.SwabLabs_PageTestParalleltest">
+        <test-method is-config="true" signature="setupdriver(java.lang.String)[pri:0, instance:automation_pagetest.SwabLabs_PageTestParalleltest@175b9425]" started-at="2025-05-21T02:21:30 IST" name="setupdriver" finished-at="2025-05-21T02:21:33 IST" duration-ms="2537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,27 +18,158 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupdriver -->
-        <test-method signature="verifyLoginWithIncorrectCredentials()[pri:1, instance:automation_pagetest.SwabLabs_PageTest@3a52dba3]" started-at="2025-05-20T19:27:25 IST" name="verifyLoginWithIncorrectCredentials" finished-at="2025-05-20T19:27:25 IST" duration-ms="307" status="PASS">
+        <test-method signature="verifyLoginWithIncorrectCredentials()[pri:1, instance:automation_pagetest.SwabLabs_PageTestParalleltest@175b9425]" started-at="2025-05-21T02:21:33 IST" name="verifyLoginWithIncorrectCredentials" finished-at="2025-05-21T02:21:33 IST" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithIncorrectCredentials -->
-        <test-method signature="verifyLoginWithCorrectCredentials()[pri:2, instance:automation_pagetest.SwabLabs_PageTest@3a52dba3]" started-at="2025-05-20T19:27:25 IST" name="verifyLoginWithCorrectCredentials" finished-at="2025-05-20T19:27:29 IST" duration-ms="3389" status="PASS">
+        <test-method signature="verifyLoginWithCorrectCredentials()[pri:2, instance:automation_pagetest.SwabLabs_PageTestParalleltest@175b9425]" started-at="2025-05-21T02:21:33 IST" name="verifyLoginWithCorrectCredentials" finished-at="2025-05-21T02:21:36 IST" duration-ms="3410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithCorrectCredentials -->
-        <test-method signature="verifyCartFunctionalityWorksCorectly()[pri:3, instance:automation_pagetest.SwabLabs_PageTest@3a52dba3]" started-at="2025-05-20T19:27:29 IST" name="verifyCartFunctionalityWorksCorectly" finished-at="2025-05-20T19:27:29 IST" depends-on-methods="automation_pagetest.SwabLabs_PageTest.verifyLoginWithCorrectCredentials" duration-ms="243" status="PASS">
+        <test-method signature="verifyCartFunctionalityWorksCorectly()[pri:3, instance:automation_pagetest.SwabLabs_PageTestParalleltest@175b9425]" started-at="2025-05-21T02:21:36 IST" name="verifyCartFunctionalityWorksCorectly" finished-at="2025-05-21T02:21:37 IST" depends-on-methods="automation_pagetest.SwabLabs_PageTestParalleltest.verifyLoginWithCorrectCredentials" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartFunctionalityWorksCorectly -->
-        <test-method signature="verifyCheckoutFunctionalityWorksCorrectly()[pri:4, instance:automation_pagetest.SwabLabs_PageTest@3a52dba3]" started-at="2025-05-20T19:27:29 IST" name="verifyCheckoutFunctionalityWorksCorrectly" finished-at="2025-05-20T19:27:29 IST" depends-on-methods="automation_pagetest.SwabLabs_PageTest.verifyLoginWithCorrectCredentials" duration-ms="364" status="PASS">
+        <test-method signature="verifyCheckoutFunctionalityWorksCorrectly()[pri:4, instance:automation_pagetest.SwabLabs_PageTestParalleltest@175b9425]" started-at="2025-05-21T02:21:37 IST" name="verifyCheckoutFunctionalityWorksCorrectly" finished-at="2025-05-21T02:21:37 IST" depends-on-methods="automation_pagetest.SwabLabs_PageTestParalleltest.verifyLoginWithCorrectCredentials" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutFunctionalityWorksCorrectly -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:automation_pagetest.SwabLabs_PageTest@3a52dba3]" started-at="2025-05-20T19:27:29 IST" name="closeDriver" finished-at="2025-05-20T19:27:29 IST" duration-ms="256" status="PASS">
+        <test-method signature="myTest(java.lang.String,java.lang.String)[pri:5, instance:automation_pagetest.SwabLabs_PageTestParalleltest@175b9425]" started-at="2025-05-21T02:21:37 IST" name="myTest" data-provider="data-provider" finished-at="2025-05-21T02:21:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method signature="myTest(java.lang.String,java.lang.String)[pri:5, instance:automation_pagetest.SwabLabs_PageTestParalleltest@175b9425]" started-at="2025-05-21T02:21:37 IST" name="myTest" data-provider="data-provider" finished-at="2025-05-21T02:21:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method signature="myTest(java.lang.String,java.lang.String)[pri:5, instance:automation_pagetest.SwabLabs_PageTestParalleltest@175b9425]" started-at="2025-05-21T02:21:37 IST" name="myTest" data-provider="data-provider" finished-at="2025-05-21T02:21:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:automation_pagetest.SwabLabs_PageTestParalleltest@175b9425]" started-at="2025-05-21T02:21:37 IST" name="closeDriver" finished-at="2025-05-21T02:21:37 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- automation_pagetest.SwabLabs_PageTestParalleltest -->
+    </test> <!-- Test Two  -->
+    <test started-at="2025-05-21T02:21:30 IST" name="Test One" finished-at="2025-05-21T02:21:37 IST" duration-ms="7381">
+      <class name="automation_pagetest.SwabLabs_PageTest">
+        <test-method is-config="true" signature="setupdriver(java.lang.String)[pri:0, instance:automation_pagetest.SwabLabs_PageTest@23348b5d]" started-at="2025-05-21T02:21:30 IST" name="setupdriver" finished-at="2025-05-21T02:21:33 IST" duration-ms="2537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupdriver -->
+        <test-method signature="verifyLoginWithIncorrectCredentials()[pri:1, instance:automation_pagetest.SwabLabs_PageTest@23348b5d]" started-at="2025-05-21T02:21:33 IST" name="verifyLoginWithIncorrectCredentials" finished-at="2025-05-21T02:21:33 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithIncorrectCredentials -->
+        <test-method signature="verifyLoginWithCorrectCredentials()[pri:2, instance:automation_pagetest.SwabLabs_PageTest@23348b5d]" started-at="2025-05-21T02:21:33 IST" name="verifyLoginWithCorrectCredentials" finished-at="2025-05-21T02:21:36 IST" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithCorrectCredentials -->
+        <test-method signature="verifyCartFunctionalityWorksCorectly()[pri:3, instance:automation_pagetest.SwabLabs_PageTest@23348b5d]" started-at="2025-05-21T02:21:36 IST" name="verifyCartFunctionalityWorksCorectly" finished-at="2025-05-21T02:21:37 IST" depends-on-methods="automation_pagetest.SwabLabs_PageTest.verifyLoginWithCorrectCredentials" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartFunctionalityWorksCorectly -->
+        <test-method signature="verifyCheckoutFunctionalityWorksCorrectly()[pri:4, instance:automation_pagetest.SwabLabs_PageTest@23348b5d]" started-at="2025-05-21T02:21:37 IST" name="verifyCheckoutFunctionalityWorksCorrectly" finished-at="2025-05-21T02:21:37 IST" depends-on-methods="automation_pagetest.SwabLabs_PageTest.verifyLoginWithCorrectCredentials" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutFunctionalityWorksCorrectly -->
+        <test-method signature="myTest(java.lang.String,java.lang.String)[pri:5, instance:automation_pagetest.SwabLabs_PageTest@23348b5d]" started-at="2025-05-21T02:21:37 IST" name="myTest" data-provider="data-provider" finished-at="2025-05-21T02:21:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method signature="myTest(java.lang.String,java.lang.String)[pri:5, instance:automation_pagetest.SwabLabs_PageTest@23348b5d]" started-at="2025-05-21T02:21:37 IST" name="myTest" data-provider="data-provider" finished-at="2025-05-21T02:21:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method signature="myTest(java.lang.String,java.lang.String)[pri:5, instance:automation_pagetest.SwabLabs_PageTest@23348b5d]" started-at="2025-05-21T02:21:37 IST" name="myTest" data-provider="data-provider" finished-at="2025-05-21T02:21:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:automation_pagetest.SwabLabs_PageTest@23348b5d]" started-at="2025-05-21T02:21:37 IST" name="closeDriver" finished-at="2025-05-21T02:21:37 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- automation_pagetest.SwabLabs_PageTest -->
-    </test> <!-- Test -->
+    </test> <!-- Test One -->
   </suite> <!-- Suite -->
 </testng-results>
