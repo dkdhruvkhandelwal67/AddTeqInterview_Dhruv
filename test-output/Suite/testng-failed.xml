@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="automation_pagetest.SwabLabs_PageTest">
+        <methods>
+          <include name="setupdriver"/>
+          <include name="verifyCartFunctionalityWorksCorectly"/>
+          <include name="closeDriver"/>
+          <include name="verifyLoginWithCorrectCredentials"/>
+          <include name="verifyCheckoutFunctionalityWorksCorrectly"/>
+        </methods>
+      </class> <!-- automation_pagetest.SwabLabs_PageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
